@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Properties;
 
-public class Main {
+public class Main { //Не читает поток и не перименовывает файлы. Почему?
     public static void main(String[] args) throws IOException {
         Properties properties = new Properties();
         try {
